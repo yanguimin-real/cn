@@ -3,8 +3,8 @@
 <table>
    <tr>
       <td> 本地操作系统类型 </td>
-      <td> Linux实例绑定公网IP  </td>
-      <td> Linux实例没有绑定公网IP </td>
+      <td> Linux实例已绑定弹性公网IP  </td>
+      <td> Linux实例未绑定弹性公网IP </td>
    </tr>
    <tr>
       <td> Wndows </td>
@@ -59,29 +59,25 @@ VNC登陆的场景至少包括以下几种：
     下载后双击xshell5_5.0.1332.exe进行安装。
 
 2. 安装完成，打开Xshell，并点击新建，根据要求输入相应参数
-* 名称：自定义设置
-* 协议：SSH
-* 主机：实例所绑定的公网IP，可在实例列表查询
-* 端口号：22
-![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell.png)
 
-3.选择用户身份认证
-* 密码登录
-  * 方法：选择Password
-  * 用户名：默认用户名为root
-![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell1.png)
-  * 点击确定，连接实例，如下图：
+	* 名称：自定义设置
+	* 协议：SSH
+	* 主机：实例所绑定的公网IP，可在实例列表查询
+	* 端口号：22![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell.png)
+
+3. 选择用户身份认证
+	* 密码登录
+		* 方法：选择Password
+		* 用户名：默认用户名为root![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell1.png)
+		* 点击确定，连接实例，如下图：
 ![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell2.png)
-* 密钥登录
-  *  方法：选择Public Key
-  *  用户名：默认用户名为root
-  *  用户密钥：点击【浏览】-->【导入】，打开弹窗后找到本地保存的私钥，点击【打开】，返回用户密钥配置窗口。
-![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell3.png)
-  * 选中导入的密钥后，点击【确定】，可以看到该密钥显示在“用户密钥”处。再次点击【确定】。
-  * 在会话连接确认窗口中，选择【连接】，选择以何种方式接受实例密钥。
-![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell4.png)
-  * 若连接成功，显示如下图，若连接失败，请确认公网IP地址是否输入正确，并查看安全组和网络ACL配置。
-![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell5.png)
+	* 密钥登录
+		*  方法：选择Public Key
+		*  用户名：默认用户名为root
+		*  用户密钥：点击【浏览】-->【导入】，打开弹窗后找到本地保存的私钥，点击【打开】，返回用户密钥配置窗口。![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell3.png)
+		* 选中导入的密钥后，点击【确定】，可以看到该密钥显示在“用户密钥”处。再次点击【确定】。
+		* 在会话连接确认窗口中，选择【连接】，选择以何种方式接受实例密钥。![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell4.png)
+		* 若连接成功，显示如下图，若连接失败，请确认公网IP地址是否输入正确，并查看安全组和网络ACL配置。![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell5.png)
 
 ## 本地为Linux/Mac OS，使用SSH登录Linux实例
 Linux用户请直接运行以下命令，Mac OS用户请打开系统自带的终端（Terminal）后运行以下命令，随后输入该实例root用户的密码，输入正确即可连接实例。
@@ -94,6 +90,7 @@ Linux用户请直接运行以下命令，Mac OS用户请打开系统自带的终
 ` chmod 400 <下载到本地的与实例绑定的私钥绝对路径> `
 
 随后运行以下远程登录命令：
+
 `ssh -i "<下载到本地的与实例绑定的私钥绝对路径>" root@<实例公网IP地址>`
 
 ## 相关参考

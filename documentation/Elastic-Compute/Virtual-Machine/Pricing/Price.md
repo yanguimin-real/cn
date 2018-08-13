@@ -5,7 +5,7 @@
 请注意：价格总览中价格为统一官方标价，不包用户括折扣优惠，为了保证价格准确性，建议您登录后使用云主机价格计算器或登录控制台云主机创建页面查看配置价格。
 
 
-京东云主机实例价格主要包括：实例价格（vCPU及内存）/云硬盘价格/弹性公网IP价格。其中云硬盘价格请参见[云硬盘价格总览]()，弹性公网IP价格请参见[弹性公网IP价格总览]()。
+京东云主机实例价格主要包括：实例价格（vCPU及内存）/云硬盘价格/弹性公网IP价格。其中云硬盘价格请参见[云硬盘价格总览]()，弹性公网IP价格请参见[弹性公网IP价格总览](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md)。
 
 ## 实例价格：
 
@@ -47,63 +47,63 @@
       <td>1</td>
       <td>4</td>
       <td>136.5</td>
-      <td>0.48</td>
+      <td>0.47</td>
       <td></td>
    </tr>
    <tr>
       <td>g.n2.large</td>
       <td>2</td>
       <td>8</td>
-      <td>273</td>
-      <td>0.96</td>
+      <td>242.25</td>
+      <td>0.845</td>
       <td></td>
    </tr>
    <tr>
       <td>g.n2.xlarge</td>
       <td>4</td>
       <td>16</td>
-      <td>546</td>
-      <td>1.92</td>
+      <td>484.5</td>
+      <td>1.682</td>
       <td></td>
    </tr>
    <tr>
       <td>g.n2.2xlarge</td>
       <td>8</td>
       <td>32</td>
-      <td>1092</td>
-      <td>3.84</td>
+      <td>969</td>
+      <td>3.363</td>
       <td></td>
    </tr>
    <tr>
      <td>g.n2.4xlarge</td>
       <td>16</td>
       <td>64</td>
-      <td>2184</td>
-      <td>7.68</td>
+      <td>1938</td>
+      <td>6.726</td>
       <td></td>
    </tr>
    <tr>
      <td>g.n2.8xlarge</td>
       <td>32</td>
       <td>128</td>
-      <td>4368</td>
-      <td>15.36</td>
+      <td>3876</td>
+      <td>13.462</td>
       <td></td>
    </tr>
    <tr>
      <td>g.n2.16xlarge</td>
       <td>64</td>
       <td>256</td>
-      <td>9120</td>
-      <td>31.663</td>
+      <td>7752</td>
+      <td>26.913</td>
       <td></td>
    </tr>
    <tr> 
       <td>g.n2.18xlarge</td>
       <td>72</td>
       <td>288</td>
-      <td>10260</td>
-      <td>35.62</td>
+      <td>8721</td>
+      <td>30.277</td>
       <td></td>
    </tr>
    <tr>
@@ -169,55 +169,55 @@
       <td>2</td>
       <td>4</td>
       <td>168</td>
-      <td>0.6</td>
+      <td>0.589</td>
       <td></td>
    </tr>
    <tr>
      <td>c.n2.xlarge</td>
       <td>4</td>
       <td>8</td>
-      <td>364</td>
-      <td>1.28</td>
+      <td>358</td>
+      <td>1.178</td>
       <td></td>
    </tr>
    <tr>
      <td>c.n2.2xlarge</td>
       <td>8</td>
       <td>16</td>
-      <td>728</td>
-      <td>2.56</td>
+      <td>716</td>
+      <td>2.356</td>
       <td></td>
    </tr>
    <tr>
       <td>c.n2.4xlarge</td>
       <td>16</td>
       <td>32</td>
-      <td>1456</td>
-      <td>5.12</td>
+      <td>1432</td>
+      <td>4.721</td>
       <td></td>
    </tr>
    <tr>
      <td>c.n2.8xlarge</td>
       <td>32</td>
       <td>64</td>
-      <td>2912</td>
-      <td>10.24</td>
+      <td>2864</td>
+      <td>9.443</td>
       <td></td>
    </tr>
    <tr>
      <td>c.n2.16xlarge</td>
       <td>64</td>
       <td>128</td>
-      <td>5824</td>
-      <td>20.48</td>
+      <td>5728</td>
+      <td>18.895</td>
       <td></td>
    </tr>
    <tr>
      <td>c.n2.18xlarge</td>
       <td>72</td>
       <td>144</td>
-      <td>6552</td>
-      <td>23.04</td>
+      <td>6444</td>
+      <td>21.256</td>
       <td></td>
    </tr>
    <tr> 
@@ -306,32 +306,32 @@
       <td>m.n2.large</td>
       <td>2</td>
       <td>16</td>
-      <td>352</td>
-      <td>1.263</td>
+      <td>309.7</td>
+      <td>1.073</td>
       <td></td>
    </tr>
    <tr>
      <td>m.n2.xlarge</td>
       <td>4</td>
       <td>32</td>
-      <td>704</td>
-      <td>2.536</td>
+      <td>619.4</td>
+      <td>2.147</td>
       <td></td>
    </tr>
    <tr>
       <td>m.n2.2xlarge</td>
       <td>8</td>
       <td>64</td>
-      <td>1408</td>
-      <td>5.064</td>
+      <td>1238.8</td>
+      <td>4.304</td>
       <td></td>
    </tr>
    <tr>
       <td>m.n2.4xlarge</td>
       <td>16</td>
       <td>128</td>
-      <td>2816</td>
-      <td>10.136</td>
+      <td>2477.6</td>
+      <td>8.607</td>
       <td></td>
    </tr>
    <tr>
@@ -388,40 +388,40 @@
       <td>h.g2.large</td>
       <td>2</td>
       <td>8</td>
-      <td>343.9</td>
-      <td>1.197</td>
+      <td>332</td>
+      <td>1.092</td>
       <td></td>
    </tr>
    <tr>
      <td>h.g2.xlarge</td>
       <td>4</td>
       <td>16</td>
-      <td>687.8</td>
-      <td>2.385</td>
+      <td>664</td>
+      <td>2.194</td>
       <td></td>
    </tr>
    <tr>
       <td>h.g2.2xlarge</td>
       <td>8</td>
       <td>32</td>
-      <td>1375.6</td>
-      <td>4.779</td>
+      <td>1328</td>
+      <td>4.38</td>
       <td></td>
    </tr>
    <tr>
      <td>h.g2.4xlarge</td>
       <td>16</td>
       <td>64</td>
-      <td>2751.2</td>
-      <td>9.557</td>
+      <td>2656</td>
+      <td>8.759</td>
       <td></td>
    </tr>
    <tr>
      <td>h.g2.8xlarge</td>
       <td>32</td>
       <td>128</td>
-      <td>5502.4</td>
-      <td>19.104</td>
+      <td>5312</td>
+      <td>17.518</td>
       <td></td>
    </tr>
    <tr>
@@ -470,12 +470,12 @@
 
 * 标*表示不支持以该规格新建云主机，且不支持您将当前云主机调整至该规格，但不影响您现有该规格云主机的使用；
 * 通用型、计算优化型及内存优化型的第二代规格暂时只在华北-北京地域、华东-上海及华南-广州提供；
-* 高频计算型当前仅在华南-广州提供。
+* 高频计算型当前仅在华北-北京及华南-广州提供。
 
 ## 相关参考
 [云主机价格计算器](https://www.jdcloud.com/calculator/calHost)
 
 [云硬盘价格总览]()
 
-[弹性公网IP价格总览]()
+[弹性公网IP价格总览](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md)
 
