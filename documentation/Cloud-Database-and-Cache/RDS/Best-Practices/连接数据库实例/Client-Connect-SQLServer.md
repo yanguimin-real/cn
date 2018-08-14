@@ -9,25 +9,32 @@ http://download.microsoft.com/download/0/9/9/099E0C83-072B-42A5-83A0-9BB3D2E6E2A
 
 1. 准备一台具有公网IP的云主机，操作系统为Linux，例如Centos 7.3 64位版。该主机跟云数据在同一个VPC和子网中
 2. 在SecureCRT中连接协议选择“SSH2”，并配置公网云主机的IP
+
 ![连接实例1](../../../../../image/RDS/Client-Connect-1.png)
 
 3. 选择“Port Forwarding”，并点击“Add”
+
 ![连接实例2](../../../../../image/RDS/Client-Connect-2.png)
 
 4. 配置转发参数
+
 ![连接实例3](../../../../../image/RDS/Client-Connect-3.png)
 
 5. 使用SecureCRT连接公网云主机
+
 ![连接实例4](../../../../../image/RDS/Client-Connect-4.png)
 
 6. 本地运行SSMS，连接数据库
+
 ![连接实例5](../../../../../image/RDS/Client-Connect-5.png)
 
 7. 输入连接信息
 在服务器名称一栏中输入本地IP “127.0.0.1” 和刚才配置的本地端口 6000，中间用逗号分隔；
 
 身份验证选择“SQL Server 身份验证”
+
 ![连接实例6](../../../../../image/RDS/Client-Connect-6.png)
 
 8. 成功后，即可连接数据库进行操作
+
 ![连接实例7](../../../../../image/RDS/Client-Connect-7.png)
