@@ -111,6 +111,10 @@
             href: Operation-Guide/Image/Share-Image.md
           - name: 取消共享私有镜像
             href: Operation-Guide/Image/Cancel-Share-Image.md
+          - name: 镜像类型转换
+            href: Operation-Guide/Image/Convert-Image.md
+          - name: 复制镜像
+            href: Operation-Guide/Image/Copy-Image.md
           - name: 删除私有镜像
             href: Operation-Guide/Image/Delete-Private-Image.md
       - name: 存储
