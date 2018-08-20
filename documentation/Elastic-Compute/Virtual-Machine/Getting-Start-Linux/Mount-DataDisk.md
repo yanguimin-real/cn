@@ -82,11 +82,4 @@ sh auto_fdisk.sh /dev/vdb jddata1 ext4
 **
 
   [1]: http://img1.jcloudcs.com/cms/6bbc4a45-02ce-460d-9696-c31f3fa18c6f20170728174252.zip
-  [2]: ./images/Getting-Start-Linux-mount.png "Getting-Start-Linux-mount.png"
-  [3]: ./images/Getting-Start-Linux-mount1.png "Getting-Start-Linux-mount1.png"
-  [4]: ./images/Getting-Start-Linux-mount2.png "Getting-Start-Linux-mount2.png"
-  [5]: ./images/Getting-Start-Linux-mount3.png "Getting-Start-Linux-mount3.png"
-  [6]: ./images/Getting-Start-Linux-mount4.png "Getting-Start-Linux-mount4.png"
-  [7]: ./images/Getting-Start-Linux-mount5.png "Getting-Start-Linux-mount5.png"
-  [8]: ./images/Getting-Start-Linux-mount6.png "Getting-Start-Linux-mount6.png"
-  
+ 
