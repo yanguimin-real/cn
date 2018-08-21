@@ -72,15 +72,15 @@
           - name: 恢复数据
             href: Operation-Guide/Backup/Restore-Instance.md       
           - name: 根据备份创建实例
-            href: Operation-Guide/Backup/Create-Instance2.md      
+            href: Operation-Guide/Backup/Create-Instance-by-Backup.md      
           - name: 根据时间点创建实例          
-            href: Operation-Guide/Backup/Create-Instance3.md      
+            href: Operation-Guide/Backup/Create-Instance-by-Point-in-Time.md      
       - name: 跨地域备份同步服务
         items:
           - name: 创建跨地域备份同步服务
             href: Operation-Guide/Across-Region-Backup-Sync/Create-Backup-Sync.md  
           - name: 根据备份数据创建实例
-            href: Operation-Guide/Across-Region-Backup-Sync/Create-Instance4.md
+            href: Operation-Guide/Across-Region-Backup-Sync/Create-Instance-by-Backup-Sync.md
       - name: 监控报警
         items:
           - name: 查看监控信息
@@ -109,8 +109,7 @@
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
-    href: 
-    status: 0
+    href:
   - name: SDK参考
     href:
   - name: 用户协议
@@ -127,8 +126,8 @@
     - name: 文档历史记录
       href: Related-Resources/Document-History.md   
     - name: 备案
-      href:           
+      href: Related-Resources/Filing.md           
       status: 0        
     - name: 词汇表
-      href:          
+      href: Related-Resources/Glossary.md           
       status: 0

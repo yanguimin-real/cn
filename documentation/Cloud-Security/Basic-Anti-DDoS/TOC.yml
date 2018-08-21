@@ -1,4 +1,4 @@
-- name: DDOS基础防护 Basic-Anti-DDoS
+name: DDOS基础防护 Basic-Anti-DDoS
   href: 
 - name: 产品简介
   items:
@@ -47,11 +47,5 @@
   herf: FAQ/FAQ.md
 - name: API参考
   herf:
-- name: SDK参考
-  herf:
-- name: 相关资源
-  items:
-  - name: 文档历史记录
-    herf: Related-Resources/Document-History.md              
-          
+    
           

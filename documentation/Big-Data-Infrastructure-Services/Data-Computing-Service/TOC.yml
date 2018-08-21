@@ -1,67 +1,52 @@
-- name: 数据计算服务 Data Computing Service
+  name: 数据计算服务
   href: 
-- name: 产品简介
   items:
-    - name: 产品概述
-      herf: Introduction/What-Is-MongoDB.md
-    - name: 核心概念
-      herf: Introduction/Core-Concepts.md
-    - name: 基础架构
-      herf: Introduction/Basic-Infrastructure.md
-    - name: 产品优势
-      herf: Introduction/Benefits.md
-    - name: 产品功能
-      herf: Introduction/Functions.md
-    - name: 产品规格
-      herf: Introduction/Specification.md
-    - name: 限制说明
-      herf: Introduction/Restrictions.md
-    - name: 应用场景 
-      herf: Introduction/Application-Scenarios.md    
-- name: 产品定价
-  items:
-    - name: 计费概述
-      herf: Pricing/Billing-Overview.md
-    - name: 计费规则
-      herf: Pricing/Billing-Rules.md
-    - name: 价格总览
-      herf: Pricing/Price-Overview.md
-    - name: 购买流程
-      herf: Pricing/Purchase-Process.md 
-    - name: 续费流程
-      herf: Pricing/Renew-Process.md
-- name: 操作指南
-  items:
-    - name: 数据加载
-      herf: Operation-Guide/Data-Load.md
-    - name: 库表管理
-      herf: Operation-Guide/DW-Management.md
-    - name: 管理文件
-      herf: Operation-Guide/File-Management.md
-    - name: 任务开发
-      herf: Operation-Guide/Task-Development.md 
-    - name: 任务历史
-      herf: Operation-Guide/Task-History.md 
-    - name: 用户管理
-      herf: Operation-Guide/User-Management.md 
-    - name: 权限管理
-      herf: Operation-Guide/Authorization-Management.md 
-    - name: UDF函数
-      herf: Operation-Guide/UDF-Function.md 
-    - name: 内置函数
-      herf: Operation-Guide/Built-in-Function.md       
-- name: 常见问题
-  items:
-    - name: 资源常见问题
-      herf: FAQ/Resource-FAQ.md
-    - name: JDBC链接常见问题
-      herf: FAQ/JDBC-Connection-FAQ.md
-- name: API参考
-  herf:
-- name: SDK参考
-  herf:
-- name: 相关资源
-  items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        herf: Introduction/What-Is-Data-Computing-Service.md
+      - name: 产品功能
+        herf: Introduction/Functions.md
+      - name: 应用场景 
+        herf: Introduction/Application-Scenarios.md    
+  - name: 产品定价
+    items:
+      - name: 计费概述
+        herf: Pricing/Billing-Overview.md
+      - name: 计费规则
+        herf: Pricing/Billing-Rules.md
+  - name: 操作指南
+    items:
+      - name: 数据加载
+        herf: Operation-Guide/Data-Load.md
+      - name: 库表管理
+        herf: Operation-Guide/DW-Management.md
+      - name: 管理文件
+        herf: Operation-Guide/File-Management.md
+      - name: 任务开发
+        herf: Operation-Guide/Task-Development.md 
+      - name: 任务历史
+        herf: Operation-Guide/Task-History.md 
+      - name: 用户管理
+        herf: Operation-Guide/User-Management.md 
+      - name: 权限管理
+        herf: Operation-Guide/Authorization-Management.md 
+      - name: UDF函数
+        herf: Operation-Guide/UDF-Function.md 
+      - name: 内置函数
+        herf: Operation-Guide/Built-in-Function.md       
+  - name: 常见问题
+    items:
+      - name: 资源常见问题
+        herf: FAQ/Resource-FAQ.md
+      - name: JDBC链接常见问题
+        herf: FAQ/JDBC-Connection-FAQ.md
+  - name: API参考
+    herf:
+  - name: SDK参考
+    herf:
+  - name: 相关资源
+    items:
   - name: 文档历史记录
     herf: Related-Resources/Document-History.md     
   - name: 服务条款
@@ -75,6 +60,4 @@
     status: 0        
   - name: 词汇表
     herf: Related-Resources/Glossary.md           
-    status: 0          
-          
-          
+    status: 0       

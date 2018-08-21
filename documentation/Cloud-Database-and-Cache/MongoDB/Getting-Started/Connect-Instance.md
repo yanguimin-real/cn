@@ -2,7 +2,7 @@
 
 出于安全考虑，云数据库 MongoDB 目前仅提供内网连接，暂不提供公网连接。
 
-如果您需要本地直接连接云数据库 MongoDB 实例，可以通过代理转发的方式实现，操作方式请参考 [公网连接 MongoDB 实例](../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md)。
+如果您需要本地直接连接云数据库 MongoDB 实例，可以通过云主机代理转发的方式实现，操作方式请参考 [公网连接 MongoDB 实例](../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md)。
 
 
 
@@ -20,11 +20,11 @@
 
 		- 数据库名称，默认为admin 。
 		- 用户名称，默认为root 。
-		- 副本集名称
-		- 连接地址
-		
-		   默认情况下，节点1为Primary， 节点2为Secondary。
-		   如发生自动容灾切换等情况，Primary、Secondary节点可能发生变化，客户端请使用Connection String URI连接来保证高可用。
+		- 副本集名称。
+		- 连接地址。
+				
+		   默认情况下，节点1为Primary， 节点2为Secondary，	如发生自动容灾切换等情况，Primary、Secondary节点可能发生变化。
+                客户端请使用Connection String URI连接来保证高可用。
 
 2. 连接 MongoDB 实例。
    - 使用Mongo shell 连接

@@ -27,6 +27,6 @@ MongoDB 控制台提供了根据备份创建实例的功能，您可以根据某
 
 - [手动创建备份](Create-Backup.md)
 - [下载备份文件](Download-Bckup.md)
-- [根据时间点创建实例](Create-Instance3.md)
+- [根据时间点创建实例](Create-Instance-by-Point-in-Time.md)
 - [设置自动备份](Modify-Backup-Policy.md)
 - [数据恢复](Restore-Instance.md)

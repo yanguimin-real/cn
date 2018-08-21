@@ -4,7 +4,8 @@
 
 |发布日期|特性|描述|
 |-|-|-|
-|2018年7月|创建实例|按时间点创建实例功能上线。|
+|2018年7月|跨地域备份同步|跨地域备份同步功能上线，可一键实现异地容灾。|
+|2018年7月|按时间点创建实例|按时间点创建实例功能上线。|
 |2018年6月|重启实例|提供重启实例功能。|
 |2018年5月|白名单|提供IP白名单功能。|
 |2018年4月|正式版发布|云数据库 MongoDB 正式版上线。|
@@ -15,8 +16,8 @@
 
 ## 相关参考
 
-- [产品概述](../Product-Introduction/Overview.md)
-- [核心概念](../Product-Introduction/Core-Concepts.md)
-- [产品功能](../Product-Introduction/Functions.md)
+- [产品概述](../Introduction/What-Is-MongoDB.md)
+- [核心概念](../Introduction/Core-Concepts.md)
+- [产品功能](../Introduction/Functions.md)
 - [创建实例](../Getting-Started/Create-Instance.md)
 - [设置白名单](..//Getting-Started/Set-Whitelist.md)

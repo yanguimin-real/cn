@@ -30,6 +30,6 @@
 
 - [手动创建备份](Create-Backup.md)
 - [下载备份文件](Download-Bckup.md)
-- [根据备份创建实例](Create-Instance2.md)
-- [根据时间点创建实例](Create-Instance3.md)
+- [根据备份创建实例](Create-Instance-by-Backup.md)
+- [根据时间点创建实例](Create-Instance-by-Point-in-Time.md)
 - [设置自动备份](Modify-Backup-Policy.md)

@@ -40,4 +40,4 @@
 
 ## 相关参考
 
-- [根据备份数据创建实例](Create-Instance4.md)
+- [根据备份数据创建实例](Create-Instance-by-Backup-Sync.md)

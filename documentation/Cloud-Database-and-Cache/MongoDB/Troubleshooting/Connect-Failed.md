@@ -1,23 +1,23 @@
 # 云主机无法连接 MongoDB 实例
 
-## 现象描述
+## 问题描述
 使用云主机连接 MongoDB 数据库时报错，无法连接，提示：exception: connect failed，具体提示参考下图。
 
 ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-027.png)
 
-## 可能原因
+## 问题分析
 
-云主机与MongoDB 实例的链路不通。
+可能原因为云主机与MongoDB 实例的链路不通。
 
-## 处理步骤
+## 问题处理
 
 1. 确认 MongoDB 实例的连接地址是否正确。
 
-   在 MongoDB控制台找到该实例，在实例详情页查看 MongoDB 连接地址。请参考：[连接实例]()
+   在 MongoDB控制台找到该实例，在实例详情页查看 MongoDB 连接地址。请参考：[连接实例](../Getting-Started/Connect-Instance.md)
 
 1. 确认用于连接的云主机是否与 MongoDB 实例是否在同一个VPC。
 
-   在京东云控制台查看云主机与 MongoDB 实例是否处于同一个VPC内，如两者处于不同VPC，且未通过VPC对等连接打通，则内则网络不通，请更换用于连接的云主机。
+   在京东云控制台查看云主机与 MongoDB 实例是否处于同一个VPC内，如两者处于不同VPC，且未通过VPC对等连接打通，则内则网络不通，请更换用于连接 MongoDB 实例的云主机。
 
 1. 确认 MongoDB 实例的白名单是否限制了云主机的IP？
 
@@ -40,6 +40,6 @@
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-029.png)
 
   ## 后续处理
-  如通过以上步骤排查仍未解决问题，请 [提交工单](https://ticket.jdcloud.com/myorder/form?cateId=166&questionId=238) 或 致电客服 400-615-1212
+  如通过以上步骤排查仍未解决问题，请 [提交工单](https://ticket.jdcloud.com/myorder/form?cateId=166&questionId=238) 或 致电客服 400-615-1212 。
 
 
