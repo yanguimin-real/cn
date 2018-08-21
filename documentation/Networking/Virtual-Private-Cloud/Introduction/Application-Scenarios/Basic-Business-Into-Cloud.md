@@ -4,4 +4,4 @@
 
 建议配置：VPC、子网、云主机、RDS、云缓存、公网IP、网络ACL、安全组
 
-![](../../Image/Basic-Business-Into-Cloud.png)
+![](/image/Networking/Virtual-Private-Cloud/Basic-Business-Into-Cloud.png)

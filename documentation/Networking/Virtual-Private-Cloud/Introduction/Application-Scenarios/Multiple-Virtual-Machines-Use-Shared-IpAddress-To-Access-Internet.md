@@ -4,4 +4,4 @@
 
 建议配置：VPC、子网、路由表、云主机、公网IP、NAT网关实例
 
-![](../../Image/Multiple-VM-Use-Shared-IpAddress-To-Access-Internet.jpg)
+![](/image/Networking/Virtual-Private-Cloud/Multiple-VM-Use-Shared-IpAddress-To-Access-Internet.jpg)

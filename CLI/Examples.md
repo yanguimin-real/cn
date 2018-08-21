@@ -1,5 +1,7 @@
 
-# 使用JSON方式创建容器
+# 使用示例
+
+## 使用JSON方式创建容器
 
 	jdc nc create-containers --input-json \
     '{
@@ -36,7 +38,7 @@
     }'
    
 
-# 使用File方式创建容器
+## 使用File方式创建容器
 
 将上节中的json串存储在某目录的container-spec.json中，则可以使用以下命令创建容器。
 
@@ -50,7 +52,7 @@ Windows：
 	jdc nc create-containers --input-json  'file://c:/container-spec.json'
    
 
-#启动容器
+##启动容器
 
 	jdc nc start-container --container-id c-igz8rekh5q
 返回：
@@ -62,7 +64,7 @@ Windows：
 	}
    
 
-#查询容器
+##查询容器
 
 	jdc nc describe-container --container-id c-igz8rekh5q
 返回： 
@@ -151,7 +153,7 @@ Windows：
 	}
    
 
-#删除容器
+##删除容器
 
 	jdc nc delete-container --container-id c-igz8rekh5q
 返回： 

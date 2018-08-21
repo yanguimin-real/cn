@@ -2,16 +2,10 @@
 
 JMR 目前支持以下的云主机规格。
 
-## JMR 版本
-
 ## 云主机规格列表
 
+云主机规格列表请参考以下文档：
 
+[实例规格类型](https://github.com/jdcloudcom/cn/blob/master/documentation/Elastic-Compute/Virtual-Machine/Introduction/Instance-Type-Family.md)
 
-
-## 相关参考
-
-
-- [价格总览](../Pricing/Price-Overview.md)
-- [计费规则](../Pricing/Billing-Rules.md)
-- [创建实例](../Getting-Started/Create-Instance.md)
+[JMR 价格总览](./Price-Overview.md)

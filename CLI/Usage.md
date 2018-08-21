@@ -1,7 +1,9 @@
 
-#前置条件
+# 使用说明
 
-##鉴权AccessKey和SecretKey
+## 前置条件
+
+### 鉴权AccessKey和SecretKey
 
 与京东云Open API一样，使用京东云CLI，需提前申请AccessKey和SecretKey，用户的AccessKey和SecretKey信息由用户中心统一维护，京东公有云各业务线共用密钥对(基础云、数据云等)；
 
@@ -9,22 +11,22 @@
 
 密钥对涉及主子账号功能，由用户自己申请的密钥对属于主密钥对，可用于操作自己账号下的所有资源。由用户给子账号申请的密钥对属于子密钥对，用于子账号操作主账号下的已授权资源。
 
-##京东云Python SDK
+### 京东云Python SDK
 
 目前CLI依赖京东云Python SDK，但在CLI的安装过程中会自动安装依赖。如果因为版本不对应导致CLI不能正常运行等问题，需要手动安装Python SDK，请参考“常见问题“中的安装方法。
 
-##京东云CLI和Python SDK版本对应表
+### 京东云CLI和Python SDK版本对应表
 
 发布日期	|	京东云CLI	|	京东云Python SDK
 :---|:---|:---
-  2018.07.19  	|	0.3.0	|	1.2.0
+2018.07.19  	|	0.3.0	|	1.2.0
 2018.06.25	|	0.2.1	|	1.1.2
 2018.06.23	|	0.2.0	|	1.1.1
 2018.06.04	|	0.1.0	|	1.1.1
 
 
 
-#结构模型
+## 结构模型
 
 
 	jdc [options] <command> <sub-command> [parameters and help]
@@ -40,7 +42,7 @@ parameters and help：sub-command 中输入的操作所对应的参数列表。�
 
 
 
-#输入参数
+## 输入参数
 
 输入参数支持三种形式：
 
@@ -107,7 +109,7 @@ b) 指定json文件
 
 
 
-#输出结果
+## 输出结果
 
 调用CLI服务后返回数据采用统一格式（与对应OpenAPI服务返回格式相同），返回的HTTP状态码为2xx，代表调用成功；返回4xx或5xx的HTTP状态码代表调用失败。
 
@@ -150,7 +152,7 @@ b) 指定json文件
 
 
 
-#交互式命令
+## 交互式命令
 
 目前支持容器产品的两个交互式命令：attach和exec-start。
 
@@ -204,15 +206,15 @@ b) 指定json文件
 
 
 
-#Skeleton生成
+## Skeleton生成
 
 每个产品命令下都有一个generate-skeleton子命令，用于生成某个子操作的输入参数骨架，即空的json串。用户可以将复杂的输入参数json串复制到文件中存储，根据OpenAPI文档中标识的参数必选、可选信息填充具体参数，再使用--input-json ‘file://xx/x.json’方式创建或修改资源。
 
 OpenAPI文档：https://www.jdcloud.com/help/faq?act=3
 
 
-
-#多用户使用
+ 
+## 多用户使用
 
 
 

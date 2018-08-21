@@ -19,7 +19,7 @@
 
 	python setup.py install
  
-SDK使用中的任何问题，欢迎您在Issues页面交流。
+SDK使用中的任何问题，欢迎您在Github项目[SDK使用问题反馈页面](https://github.com/jdcloud-api/jdcloud-sdk-python/issues)交流。
 
 **注意：京东云并没有提供其他下载方式，请务必使用上述官方下载方式！**
  

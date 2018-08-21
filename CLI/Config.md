@@ -1,5 +1,5 @@
-
-# 配置KEY #
+# 配置 #
+## 配置KEY ##
 
 
     jdc configure add --profile default --access-key your-ak --secret-key your-sk

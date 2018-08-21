@@ -1,4 +1,4 @@
-  name: 应用负载均衡
+  name: 负载均衡
   href: 
   items:
   - name: 产品简介
@@ -33,7 +33,7 @@
         href: Pricing/Renew-Process.md
   - name: 入门指南
     items:
-      - name: 创建应用负载均衡实例
+      - name: 创建负载均衡实例
         href: Getting-Started/Create-Instance.md
       - name: 创建侦听策略
         href: Getting-Started/Create-ListenerPolicy.md
@@ -49,9 +49,9 @@
     items:
       - name: 配置导览
         href: Operation-Guide/Start-From-Here.md
-      - name: 创建应用负载均衡实例
+      - name: 创建负载均衡实例
         href: Operation-Guide/Create-ALB-Instance.md
-      - name: 应用负载均衡管理
+      - name: 负载均衡管理
         href: Operation-Guide/ALB-Instance-Management.md
       - name: 侦听器管理
         href: Operation-Guide/Listener-Management.md
@@ -63,25 +63,25 @@
         href: Operation-Guide/Monitoring.md           
   - name: 最佳实践
     items:
-    - name: 利用应用负载均衡部署HTTP服务
+    - name: 利用负载均衡部署HTTP服务
       href: Best-Practices/Deploy-HTTPS-Service-with-ALB.md
-    - name: 利用应用负载均衡部署TCP服务
+    - name: 利用负载均衡部署TCP服务
       href: Best-Practices/Deploy-TCP-Service-with-ALB.md
-    - name: 利用应用负载均衡部署多端口业务、服务器复用服务
+    - name: 利用负载均衡部署多端口业务、服务器复用服务
       href: Best-Practices/Deploy-Multiple-Listener-single-backend-ALB.md
-    - name: 利用应用负载均衡部署高可用业务
+    - name: 利用负载均衡部署高可用业务
       href: Best-Practices/Deploy-High-Availability-Service-with-ALB.md
     - name: HTTP监听器提供基于cookie的会话保持服务
       href: Best-Practices/Session-Sticky-with-ALB.md
-    - name: 利用应用负载均衡部署基于虚机与容器的服务
+    - name: 利用负载均衡部署基于虚机与容器的服务
       href: Best-Practices/Distribute-service-to-vm-and-container-with-ALB.md
-    - name: 利用应用负载均衡部署服务端可弹性伸缩的业务
+    - name: 利用负载均衡部署服务端可弹性伸缩的业务
       href: Best-Practices/AG-as-backend-server.md
-    - name: 公网应用负载均衡和私网应用负载均衡转换
+    - name: 公网负载均衡和私网负载均衡转换
       href: Best-Practices/Switch-between-Internal-and-External-ALB.md
     - name: 问题排查
     items:
-    - name: 应用负载均衡业务接入失败？
+    - name: 负载均衡业务接入失败
       href: Troubleshooting/Access-ALB-Service-Failed.md
   - name: 常见问题
     href: FAQ/FAQ.md

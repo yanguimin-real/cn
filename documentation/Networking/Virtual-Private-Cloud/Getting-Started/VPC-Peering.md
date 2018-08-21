@@ -16,9 +16,9 @@
   - ID：vpc-xxvpcforpeeringbxx
   - 范围：172.16.0.0/16
 
-![](../Image/Getting-Started/VPC-Peering/Step1-1.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step1-1.png)
 
-![](../Image/Getting-Started/VPC-Peering/Step1-2.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step1-2.png)
 
 
 
@@ -26,13 +26,13 @@
 
 1) 登录控制台，在产品菜单的网络栏目中点击私有网络，然后在私有网络菜单中点击VPC对等连接，进入VPC对等连接列表页。
 
-![](../Image/Getting-Started/VPC-Peering/Step1-3.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step1-3.png)
 
 
 
 2) 在VPC对等连接列表页点击创建，打开创建VPC对等连接创建窗口。
 
-![](../Image/Getting-Started/VPC-Peering/Step1-4.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step1-4.png)
 
 
 
@@ -43,13 +43,13 @@
 - 本端VPC选择VPCforPeeringA
 - 对端VPC ID填写vpc-xxvpcforpeeringbxx
 
-![](../Image/Getting-Started/VPC-Peering/Step1-5.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step1-5.png)
 
 
 
 4）对端私有网络中需使用同样的步骤创建连接VPCforPeeringA的VPC对等连接。
 
-![](../Image/Getting-Started/VPC-Peering/Step1-6.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step1-6.png)
 
 
 
@@ -57,7 +57,7 @@
 
 1) 登录控制台，在产品菜单的网络栏目中点击私有网络，然后在私有网络菜单中点击路由表，进入路由表列表页。
 
-![](../Image/Getting-Started/VPC-Peering/Step2-1.png) 
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step2-1.png) 
 
 
 
@@ -65,7 +65,7 @@
 
 3) 在路由表创建弹窗中配置路由表基本信息，点击确定完成创建。弹窗“显示创建路由表后需要配置路由策略，并关联子网才能生效。是否去配置？”，选择立即配置进入路由表详情页。
 
-![](../Image/Getting-Started/VPC-Peering/Step2-2.png) 
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step2-2.png) 
 
 
 
@@ -79,7 +79,7 @@
 
 5）在路由条目中填入相关配置，点击保存完成路由表编辑。路由条目配置如下：
 
-![](../Image/Getting-Started/VPC-Peering/Step2-3.png) 
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step2-3.png) 
 
 
 
@@ -90,7 +90,7 @@
 
 6）配置完路由表需将路由表绑定至需要互通的子网，并在对端私有网络中需使用同样的步骤创建并配置路由表RTBforPeeringBtoA。
 
-![](../Image/Getting-Started/VPC-Peering/Step2-4.png) 
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step2-4.png) 
 
 
 

@@ -18,9 +18,4 @@
 | 配置作业 | 实例的每个节点被分配的磁盘容量。|
 | 部署作业 | 实例的每个节点被分配的磁盘容量。|
 
-## 相关参考
 
-- [产品概述](../Product-Introduction/Overview.md)
-- [产品规格](../Product-Introduction/Specification.md)
-- [价格总览](../Pricing/Price-Overview.md)
-- [创建实例](../Getting-Started/Create-Instance.md)

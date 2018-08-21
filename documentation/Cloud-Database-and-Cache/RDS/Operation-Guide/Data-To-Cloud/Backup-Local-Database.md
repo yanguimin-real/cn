@@ -17,7 +17,7 @@ go
 - 如果model值为Full，请执行步骤3
 
 用户也可使用使用SQL Server Management Studio客户端工具对数据库进行完整备份，同样需确保数据库的恢复模式为“完整”
-![本地备份1](../../../../../image/RDS/Backup-Local-Database-1.png)
+![本地备份1](../../../image/RDS/Backup-Local-Database-1.png)
 
 ## 2.将数据库的恢复模式设置为Full
 ```commandline

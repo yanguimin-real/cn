@@ -1,14 +1,14 @@
 # 购买流程
 
-本文介绍 应用负载均衡 实例的购买入口。
+本文介绍 负载均衡 实例的购买入口。
 
 ## 入口1：[产品介绍页](https://www.jdcloud.com/products/loadbalance)
 1. 登录京东云官网[https://www.jdcloud.com/](https://www.jdcloud.com/)。
-2. 选择“产品>网络 应用负载均衡”，具体见下图。
+2. 选择“产品>网络 负载均衡”，具体见下图。
 
 ![ALB](../../../../image/Networking/ALB/ALB-011.png)
 
-3.弹出应用负载均衡的产品介绍页，点击**立即购买**。
+3.弹出负载均衡的产品介绍页，点击**立即购买**。
 
 ![ALB-buy](../../../../image/Networking/ALB/ALB-012.png)
 

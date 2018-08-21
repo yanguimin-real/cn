@@ -3,13 +3,13 @@
 - 点击【生成上传Key】,可以生成一个Key，用于文件的身份验证，登录等
 - 点击Key最后的图标，可以自动拷贝Key
 
-![上传备份1](../../../../../image/RDS/Upload-Backup-1.png)
+![上传备份1](../../../image/RDS/Upload-Backup-1.png)
 
 ## 2. 下载上传工具
 - 在SQL Server实例详情中，进入【单库上云】页面，点击【下载上传工具】，下载upload-tool.exe。
 - 上传工具目前仅支持windows版本。
 
-![上传备份2](../../../../../image/RDS/Upload-Backup-2.png)
+![上传备份2](../../../image/RDS/Upload-Backup-2.png)
 
 ## 3. 上传文件
 执行upload-tool.exe，上传备份文件，upload-tool.exe的命令格式为：

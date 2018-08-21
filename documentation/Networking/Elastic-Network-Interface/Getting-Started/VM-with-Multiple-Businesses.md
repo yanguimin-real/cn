@@ -3,7 +3,7 @@
 本教程将指导您在同一台云主机上部署多个公网业务，并为每个业务关联一个IP地址。以满足单台云主机承载多业务从而降低成本的需求。本教程主要适用于单台云主机提供多个HTTPS业务，需使用不同的公网IP关联不同证书的场景。
 
 ## 业务场景架构
-![多业务承载场景](https://github.com/jdcloudcom/cn/blob/master/image/Networking/Elastic-Network-Interface/eni-001.png)
+![多业务承载场景](../../../../image/Networking/Elastic-Network-Interface/eni-001.png)
 
 ## 开始之前
 - 申请一台规格合适的云主机，并配置合适的安全组策略。

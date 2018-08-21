@@ -10,9 +10,9 @@
 
 3、删除网络ACL，点击要删除网络ACL对应操作框中的删除按钮，即可完成操作；
 
-![](../Image/Operation-Guide/Network-ACL-Configuration/Step1.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Network-ACL-Configuration/Step1.png)
 
-![](../Image/Operation-Guide/Network-ACL-Configuration/Step2.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Network-ACL-Configuration/Step2.png)
 
 
 
@@ -24,7 +24,7 @@
 
 3、点击“编辑规则”，设置协议类型、IP、端口以及策略后点击“确定”，即添加完成规则的修改。规则修改完成后及时生效 ；
 
-![](../Image/Operation-Guide/Network-ACL-Configuration/Step3.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Network-ACL-Configuration/Step3.png)
 
 
 
@@ -36,7 +36,7 @@
 
 注意：一个网络ACL可以绑定多个子网、一个子网只能绑定一个网络ACL
 
-![](../Image/Operation-Guide/Network-ACL-Configuration/Step4.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Network-ACL-Configuration/Step4.png)
 
 
 

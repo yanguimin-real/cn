@@ -4,7 +4,7 @@
 
 1、进入京东云控制台，选择 弹性计算>>云主机>>安全组 页面（或者 弹性计算>>容器服务>>安全组，本帮助以云主机为例），点击【创建】，弹出创建弹框；
 
-![](../Image/Operation-Guide/Security-Group-Configuration/Step1.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step1.png)
 
 
 2、首先您需要选择安全组所在的地域和私有网络，安全组只能应用在相同私有网路下的云主机/容器实例。您可以为当前已创建的私有网络新建安全组，也可以点击“新建私有网络“按钮，跳转到新建私有网络页面，创建新的私有网络。单个私有网络下最多可以创建50个安全组，如所选择的私有网络下安全组数量已达到50个，则会提示“所选私有网络资源安全组限额已达到50个”，您需要重新选择其他私有网络。
@@ -13,7 +13,7 @@
 
 4、新建安全组默认拒绝所有入口、出口流量。
 
-![](../Image/Operation-Guide/Security-Group-Configuration/Step2.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step2.png)
 
 
 
@@ -21,13 +21,13 @@
 
 1、进入京东云控制台，选择 弹性计算>>云主机>>安全组 页面（或者 弹性计算>>容器服务>>安全组，本帮助以云主机为例），进入控制台安全组列表页，选择【绑定主机】按钮，弹出绑定云主机弹窗；或者点击安全组名称进入安全组详情页，选择“云主机”TAB页，点击【添加】按钮，弹出绑定云主机弹窗；
 
- ![](../Image/Operation-Guide/Security-Group-Configuration/Step3.png)
+ ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step3.png)
 
 
 
 2、绑定云主机弹窗提供了当前私有网络下所有可用的云主机列表，您可以勾选一台或多台云主机，点击【确定】按钮，为已选中的云主机绑定当前安全组。
 
-![](../Image/Operation-Guide/Security-Group-Configuration/Step4.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step4.png)
 
 
 
@@ -37,7 +37,7 @@
 
 2、在云主机列表中，点击操作列下的【移除】按钮即可将对应的云主机从当前安全组中解绑。
 
-![](../Image/Operation-Guide/Security-Group-Configuration/Step5.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step5.png)
 
 
 
@@ -47,13 +47,13 @@
 
 1、进入京东云控制台，选择 弹性计算>>云主机>>安全组 页面（或者 弹性计算>>容器服务>>安全组，本帮助以云主机为例），找到需要配置出站规则的安全组，点击“更多”操作中的【修改出站规则】或点击安全组名称跳转到其详情页面；
 
-![](../Image/Operation-Guide/Security-Group-Configuration/Step6.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step6.png)
 
 
 
 2、进入出站规则TAB页，点击页面上的编辑规则按钮，进入出站规则编辑页面；
 
-![](../Image/Operation-Guide/Security-Group-Configuration/Step7.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step7.png)
 
 
 
@@ -65,7 +65,7 @@
 
 6、完成出站规则编辑后，点击页面上方的【保存】按钮后，新修改的安全组规则自动生效；
 
-![](../Image/Operation-Guide/Security-Group-Configuration/Step8.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step8.png)
 
 
 
@@ -79,13 +79,13 @@
 
 1、进入京东云控制台，选择 弹性计算>>云主机>>安全组 页面（或者 弹性计算>>容器服务>>安全组，本帮助以云主机为例），找到需要配置入站规则的安全组，点击“更多”操作中的【修改入站规则】或点击安全组名称跳转到其详情页面；
 
-![](../Image/Operation-Guide/Security-Group-Configuration/Step9.png) 
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step9.png) 
 
 
 
 2、进入入站规则TAB页，点击页面上的【编辑规则】按钮，进入入站规则编辑页面；
 
-![](../Image/Operation-Guide/Security-Group-Configuration/Step10.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step10.png)
 
 
 
@@ -97,7 +97,7 @@
 
 6、完成入站规则编辑后，点击页面上方的【保存】按钮后，新修改的安全组规则自动生效。
 
-![](../Image/Operation-Guide/Security-Group-Configuration/Step11.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step11.png)
 
 
 

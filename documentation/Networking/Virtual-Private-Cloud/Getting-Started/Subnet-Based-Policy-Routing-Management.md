@@ -16,9 +16,9 @@
 
 7.点击【确定】后即可进入“控制台”查看创建的私有网络；
 
-![](../Image/Getting-Started/Subnet-Based-Policy-Routing-Management/Step1-1.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step1-1.png)
 
-![](../Image/Getting-Started/Subnet-Based-Policy-Routing-Management/Step1-2.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step1-2.png)
 
 
 
@@ -46,9 +46,9 @@
 
 11.点击【确定】后即可进入“控制台”查看创建的子网；
 
-![](../Image/Getting-Started/Subnet-Based-Policy-Routing-Management/Step2-1.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step2-1.png)
 
-![](../Image/Getting-Started/Subnet-Based-Policy-Routing-Management/Step2-2.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step2-2.png)
 
 
 
@@ -62,4 +62,4 @@
 
 4.点击【确定】后即可为子网更换路由表；
 
-![](../Image/Getting-Started/Subnet-Based-Policy-Routing-Management/Step3-1.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step3-1.png)

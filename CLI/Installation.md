@@ -1,7 +1,9 @@
 
+# 安装 #
+
 目前支持在Linux、macOS、Windows系统上安装CLI。
 
-# 安装须知 #
+## 安装须知 ##
 
 京东云CLI基于Python语言和京东云Python SDK开发，使用CLI前请安装Python 2.7.*版本。请访问官网下载并安装Python2.7.*版本。
 
@@ -9,7 +11,7 @@
 
   
 
-# Python2.7安装 #
+## Python2.7安装 ##
 
 官网下载安装：https://www.python.org/downloads
 
@@ -33,7 +35,7 @@ macOS
 	brew install python@2
 
 
-# pip安装 #
+## pip安装 ##
 
 官网安装请参考：https://pip.pypa.io/
 
@@ -49,9 +51,9 @@ https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip
 
 
 
-# CLI安装 #
+## CLI安装 ##
 
-## Linux & macOS安装 ##
+### Linux & macOS安装 ###
 
 - pip安装（推荐）
 
@@ -86,7 +88,7 @@ https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip
 	--output  -h          add      show-all      use
 
 
-## Windows安装 ##
+### Windows安装 ###
 
 京东云CLI在Windows上运行依赖Git 2.9.0以上版本，建议使用最新版本。下载地址为：https://git-scm.com/download/win
 
@@ -117,13 +119,13 @@ https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip
 	source ~/.bashrc
 
 
-# 卸载CLI #
+## 卸载CLI ##
 
 
 	pip uninstall jdcloud_cli
 
 
-# 升级CLI #
+## 升级CLI ##
 
 使用以下命令可以升级到最新版本。
 

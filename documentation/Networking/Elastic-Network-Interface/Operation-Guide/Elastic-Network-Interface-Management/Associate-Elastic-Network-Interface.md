@@ -22,8 +22,8 @@
 
 步骤6：在绑定资源弹窗，点击确定按键，完成绑定弹性网卡操作。
 
-步骤7：返回弹性网卡列表页，因弹性网卡绑定云主机配置生效需要3~5秒，请在完成绑定操作3~5秒后刷新弹性网卡列表页，查看弹性网卡绑定情况。
+步骤7：返回弹性网卡列表页，因弹性网卡绑定云主机配置生效需要3到5秒，请在完成绑定操作3到5秒后刷新弹性网卡列表页，查看弹性网卡绑定情况。
 
 ## 相关参考
 
-- [使用限制](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Product-Introduction/Restrictions.md)
+- [使用限制](../../Introduction/Restrictions.md)

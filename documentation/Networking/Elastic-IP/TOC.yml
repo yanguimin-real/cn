@@ -1,0 +1,116 @@
+﻿  name: 弹性公网IP
+  href: 
+  items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        href: Introduction/What-is-Elastic-IP.md
+      - name: 核心概念
+        href: Introduction/Core-Concepts.md
+      - name: 产品优势
+        href: Introduction/Benefits.md
+      - name: 产品功能
+        href: Introduction/Functions.md
+      - name: 限制说明
+        href: Introduction/Restrictions.md
+      - name: 应用场景 
+        href: Introduction/Application-Scenarios.md    
+  - name: 产品定价
+    items:
+      - name: 计费概述
+        href: Pricing/Billing-Overview.md
+      - name: 计费规则
+        href: Pricing/Billing-Rules.md
+      - name: 价格总览
+        href: Pricing/Price-Overview.md
+      - name: 购买流程
+        href: Pricing/Purchase-Process.md 
+      - name: 续费流程
+        href: Pricing/Renew-Process.md
+  - name: 入门指南
+    items:
+      - name: 云主机使用弹性公网IP
+        items:
+          - name: 配置介绍
+            href: Getting-Started/Elastic-IP-with-VM/Configuration-Introduction.md
+          - name: 创建云主机
+            href: Getting-Started/Elastic-IP-with-VM/Create-VM-Instance.md
+          - name: 云主机绑定弹性公网IP
+            href: Getting-Started/Elastic-IP-with-VM/Associate-VM-to-Elastic-IP.md
+          - name: 弹性公网IP绑定云主机
+            href: Getting-Started/Elastic-IP-with-VM/Associate-Elastic-IP-to-VM.md
+      - name: 负载均衡使用弹性公网IP
+        items:
+          - name: 配置介绍
+            href: Getting-Started/Elastic-IP-with-LB/Configuration-Introduction.md
+          - name: 创建负载均衡
+            href: Getting-Started/Elastic-IP-with-LB/Create-LB-Instance.md
+          - name: 负载均衡绑定弹性公网IP
+            href: Getting-Started/Elastic-IP-with-LB/Associate-LB-to-Elastic-IP.md
+          - name: 弹性公网IP绑定负载均衡
+            href: Getting-Started/Elastic-IP-with-LB/Associate-Elastic-IP-to-LB.md
+      - name: 原生容器使用弹性公网IP
+        items:
+          - name: 配置介绍
+            href: Getting-Started/Elastic-IP-with-Container/Configuration-Introduction.md
+          - name: 创建原生容器
+            href: Getting-Started/Elastic-IP-with-Container/Create-Container-Instance.md
+          - name: 原生容器绑定弹性公网IP
+            href: Getting-Started/Elastic-IP-with-Container/Associate-Container-to-Elastic-IP.md
+          - name: 弹性公网IP绑定原生容器
+            href: Getting-Started/Elastic-IP-with-Container/Associate-Elastic-IP-to-Container.md
+  - name: 操作指南
+    items:
+      - name: 弹性公网IP管理
+        items:
+          - name: 创建弹性公网IP
+            href: Operation-Guide/Elastic-IP-Management/Create-Elastic-IP.md
+          - name: 删除弹性公网IP
+            href: Operation-Guide/Elastic-IP-Management/Delete-Elastic-IP.md
+          - name: 绑定弹性公网IP
+            href: Operation-Guide/Elastic-IP-Management/Associate-Elastic-IP.md
+          - name: 解绑弹性公网IP
+            href: Operation-Guide/Elastic-IP-Management/Disassociate-Elastic-IP.md
+          - name: 修改弹性公网IP
+            href: Operation-Guide/Elastic-IP-Management/Modify-Elastic-IP.md
+          - name: 续费弹性公网IP
+            href: Operation-Guide/Elastic-IP-Management/Renew-Elastic-IP.md
+      - name: 查看弹性公网IP资源信息
+        items:
+          - name: 查看弹性公网IP资源信息
+            href: Operation-Guide/View-Elastic-IP-Detail/View-Elastic-IP-Detail.md
+      - name: 查看弹性公网IP监控信息
+        items:
+          - name: 查看弹性公网IP监控信息
+            href: Operation-Guide/View-Elastic-IP-Monitoring/View-Elastic-IP-Monitoring.md
+      - name: 查看弹性公网IP计费信息
+        items:
+          - name: 查看弹性公网IP计费信息
+            href: Operation-Guide/View-Elastic-IP-Billing/View-Elastic-IP-Billing.md
+      - name: 导出弹性公网IP列表
+        items:
+          - name: 导出弹性公网IP列表
+            href: Operation-Guide/Export-Elastic-IP-List/Export-Elastic-IP-List.md      
+  - name: 最佳实践
+    items:
+    status: 0
+  - name: 问题排查
+    items:
+    status: 0      
+  - name: 常见问题
+    href: FAQ/FAQ.md
+  - name: API参考
+    href:
+    status: 0      
+  - name: SDK参考
+    href:
+    status: 0      
+  - name: 用户协议
+    items:
+    - name: 服务条款
+      href: User-Agreements/Product-Terms-of-Service.md          
+  - name: 相关资源
+    items:
+    - name: 文档历史记录
+      href: Related-Resources/Document-History.md   
+

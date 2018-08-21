@@ -25,4 +25,4 @@
 
 ## 相关参考
 
-- [使用限制](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Product-Introduction/Restrictions.md)
+- [使用限制](../../Introduction/Restrictions.md)

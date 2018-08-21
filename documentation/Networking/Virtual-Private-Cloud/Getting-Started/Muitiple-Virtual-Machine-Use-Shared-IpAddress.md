@@ -4,13 +4,13 @@
 
 **步骤一：在SNAT01子网下创建一台作为NAT网关的主机**
 
-![](../Image/Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress/Step1-1.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress/Step1-1.png)
 
 
 
 在SNAT01下创建一台主机，镜像选择CentOS-7.2 64位 NAT Gateway
 
-![](../Image/Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress/Step1-2.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress/Step1-2.png)
 
 
 
@@ -20,7 +20,7 @@
 
 主机命名为SNAT01
 
-![](../Image/Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress/Step1-3.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress/Step1-3.png)
 
 
 
@@ -30,13 +30,13 @@
 
 **步骤二：配置子网SNAT02的路由表指向NAT网关**
 
-![](../Image/Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress/Step2-1.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress/Step2-1.png)
 
 
 
 通过子网SNAT02查看和子网绑定的路由表
 
-![](../Image/Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress/Step2-2.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress/Step2-2.png)
 
 
 

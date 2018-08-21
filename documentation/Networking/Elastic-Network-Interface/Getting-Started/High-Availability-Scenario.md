@@ -3,7 +3,7 @@
 本教程将指导您通过使用keepalived工具构建跨可用区的高可靠应用解决方案。在发生故障时，可以通过弹性网卡由主服务器迁移至备用服务器的方式实现故障屏蔽。本教程主要适用于业务需要高可靠部署的场景，特别是安全策略与网卡MAC地址强关联的场景。
 
 ## 业务场景架构
-![高可靠应用解决方案场景](https://github.com/jdcloudcom/cn/blob/master/image/Networking/Elastic-Network-Interface/eni-003.png)
+![高可靠应用解决方案场景](../../../../image/Networking/Elastic-Network-Interface/eni-003.png)
 
 ## 开始之前
 - 在同一私有网络内，分别在可用区A与可用区B中创建1台云主机，并设定合适的安全组策略。

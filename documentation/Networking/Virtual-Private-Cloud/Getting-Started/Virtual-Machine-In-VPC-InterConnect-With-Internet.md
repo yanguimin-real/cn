@@ -16,7 +16,7 @@
 - 在左边栏餐单中依次点击网络->私有网络->私有网络，进入私有网络列表页，点击创建，弹出创建配置窗口。
 - 根据需求选择的地域，填写名称，填写CIDR，点击创建即可获得1个私有网络。
 
-![](../Image/Getting-Started/Virtual-Machine-In-VPC-InterConnect-With-Internet/Step1.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Virtual-Machine-In-VPC-InterConnect-With-Internet/Step1.png)
 
 
 
@@ -25,7 +25,7 @@
 - 在左边栏餐单中依次点击网络->私有网络->子网，进入子网列表页，点击创建，弹出创建配置窗口。
 - 根据需求选择的地域，选择刚刚创建的私有网络，填写子网名称，填写子网CIDR，选择关联路由表，点击创建即可获得1个子网。
 
-![](../Image/Getting-Started/Virtual-Machine-In-VPC-InterConnect-With-Internet/Step2.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Virtual-Machine-In-VPC-InterConnect-With-Internet/Step2.png)
 
 
 
@@ -34,7 +34,7 @@
 - 在左边栏餐单中依次点击弹性计算->云主机->实例，进入实例列表页，点击创建，弹出创建配置窗口。
 - 在实例创建的配置页找到网络模块，选择刚刚创建的私有网络和子网。
 
-![](../Image/Getting-Started/Virtual-Machine-In-VPC-InterConnect-With-Internet/Step3.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Virtual-Machine-In-VPC-InterConnect-With-Internet/Step3.png)
 
 
 
@@ -42,4 +42,4 @@
 
 - 在实例创建的配置页找到带宽模块，根据需求选择带宽计费类型和带宽上限，其余配置根据云主机创建向导即可，点击创建即可获得1台可外接通信的云主机。
 
-![](../Image/Getting-Started/Virtual-Machine-In-VPC-InterConnect-With-Internet/Step4.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Virtual-Machine-In-VPC-InterConnect-With-Internet/Step4.png)

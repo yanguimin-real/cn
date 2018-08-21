@@ -4,4 +4,4 @@
 
 建议配置：VPC、子网、网络ACL、安全组、负载均衡、云主机、公网IP
 
-![](../../Image/Business-Security-Access-Control.jpg)
+![](/image/Networking/Virtual-Private-Cloud/Business-Security-Access-Control.jpg)

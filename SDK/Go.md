@@ -11,7 +11,7 @@
 2.	在开始调用京东云open API之前，需提前在京东云用户中心账户管理下的[AccessKey管理页面](https://uc.jdcloud.com/accesskey/index)申请accesskey和secretKey密钥对（简称AK/SK）。AK/SK信息请妥善保管，如果遗失可能会造成非法用户使用此信息操作您在云上的资源，给你造成数据和财产损失。
 
 ## 下载和安装
-1.	京东云Go SDK的下载地址：https://github.com/jdcloud-api/jdcloud-sdk-go 。
+1.	京东云Go SDK的下载地址：[Go SDK](https://github.com/jdcloud-api/jdcloud-sdk-go)。
 2.	您也可以使用以下命令获取安装包，代码会被下载到GOPATH环境变量中第一个路径src目录中。
 
     `go get github.com/jdcloud-api/jdcloud-sdk-go/core github.com/satori/go.uuid`

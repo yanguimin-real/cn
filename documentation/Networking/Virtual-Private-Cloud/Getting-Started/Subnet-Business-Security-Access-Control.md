@@ -18,7 +18,7 @@
 - 根据需求选择的地域，填写名称，填写CIDR，点击创建即可获得1个私有网络。
 - 本教程中将该私有网络的CIDR设置为10.0.0.0/16。
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step1.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step1.png)
 
 
 
@@ -28,11 +28,11 @@
 - 根据需求选择的地域，选择刚刚创建的私有网络，填写子网名称，填写子网CIDR，选择关联路由表，点击创建即可。重复三遍即可获得3个子网。
 - 本教程中将WEB层子网CIDR设置为10.0.1.0/24，APP层子网CIDR设置为10.0.1.0/24，DB层子网CIDR设置为10.0.2.0/24。
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step2.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step2.png)
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step2-2.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step2-2.png)
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step2-3.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step2-3.png)
 
 
 
@@ -40,11 +40,11 @@
 
 ##### 创建ACL
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-1.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-1.png)
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-2.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-2.png)
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-3.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-3.png)
 
 
 
@@ -56,7 +56,7 @@
 - 配置WEB层与该VPC内其他网段之间入站拒绝规则，将优先级设为10000，类型设为ALL traffic，源IP设为10.0.0.0/16，策略设为拒绝。
 - 配置WEB层与公网之间入站允许规则，将优先级设为20000，类型设为ALL traffic，源IP设为0.0.0.0/0，策略设为接受。
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-4.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-4.png)
 
 
 
@@ -66,7 +66,7 @@
 - 配置WEB层与该VPC内其他网段之间出站拒绝规则，将优先级设为10000，类型设为ALL traffic，目的IP设为10.0.0.0/16，策略设为拒绝。
 - 配置WEB层与公网之间出站允许规则，将优先级设为20000，类型设为ALL traffic，目的IP设为0.0.0.0/0，策略设为接受。
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-5.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-5.png)
 
 
 
@@ -75,7 +75,7 @@
 - 点击关联子网TAB->关联子网按钮，打开关联子网配置弹窗。
 - 选择WEB层子网，点击确定完成配置。
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-6.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-6.png)
 
 
 
@@ -87,7 +87,7 @@
 - 配置APP层与DB层之间入站允许规则，将优先级设为300，类型设为ALL traffic，源IP设为10.0.2.0/24，策略设为接受。
 - 配置APP层与该VPC内其他网段之间入站拒绝规则，将优先级设为10000，类型设为ALL traffic，源IP设为10.0.0.0/16，策略设为拒绝。
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-7.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-7.png)
 
 
 
@@ -97,7 +97,7 @@
 - 配置APP层与DB层之间出站允许规则，将优先级设为300，类型设为ALL traffic，目的IP设为10.0.2.0/24，策略设为接受。
 - 配置APP层与该VPC内其他网段之间出站拒绝规则，将优先级设为10000，类型设为ALL traffic，目的IP设为10.0.0.0/16，策略设为拒绝。
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-8.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-8.png)
 
 
 
@@ -106,7 +106,7 @@
 - 点击关联子网TAB->关联子网按钮，打开关联子网配置弹窗。
 - 选择APP层子网，点击确定完成配置。
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-9.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-9.png)
 
 
 
@@ -117,7 +117,7 @@
 - 配置DB层与APP层之间入站允许规则，将优先级设为200，类型设为ALL traffic，源IP设为10.0.1.0/24，策略设为接受。
 - 配置DB层与该VPC内其他网段之间入站拒绝规则，将优先级设为10000，类型设为ALL traffic，源IP设为10.0.0.0/16，策略设为拒绝。
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-10.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-10.png)
 
 
 
@@ -126,7 +126,7 @@
 - 配置DB层与APP层之间出站允许规则，将优先级设为200，类型设为ALL traffic，目的IP设为10.0.1.0/24，策略设为接受。
 - 配置DB层与该VPC内其他网段之间出站拒绝规则，将优先级设为10000，类型设为ALL traffic，目的IP设为10.0.0.0/16，策略设为拒绝。
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-11.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-11.png)
 
 
 
@@ -135,4 +135,4 @@
 - 点击关联子网TAB->关联子网按钮，打开关联子网配置弹窗。
 - 选择DB层子网，点击确定完成配置。
 
-![](../Image/Getting-Started/Subnet-Business-Security-Access-Control/Step3-12.png)
+![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Business-Security-Access-Control/Step3-12.png)

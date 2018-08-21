@@ -1,0 +1,114 @@
+﻿  name: 私有网络VPC
+  href:
+  items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        href: Introduction/VPC-Overview.md
+      - name: 基础架构
+        href: Introduction/Basic-Infrastructure.md
+      - name: 核心概念
+        href: Introduction/Core-Concepts.md
+      - name: 产品优势
+        href: Introduction/Benefits.md
+      - name: 产品功能
+        items:
+          - name: VPC
+            href: Introduction/Functions/VPC.md
+          - name: 子网
+            href: Introduction/Functions/Subnet.md
+          - name: ACL
+            href: Introduction/Functions/Network-ACL.md
+          - name: 安全组
+            href: Introduction/Functions/Security-Group.md
+          - name: NFV
+            href: Introduction/Functions/NFV.md
+          - name: 路由表
+            href: Introduction/Functions/Route-Table.md
+          - name: VPC对等连接
+            href: Introduction/Functions/VPC-Peering.md
+      - name: 限制说明
+        href: Introduction/Restrictions.md
+      - name: 应用场景
+        items:
+          - name: 基础业务上云
+            href: Introduction/Application-Scenarios/Basic-Business-Into-Cloud.md
+          - name: 混合云数据高速互通
+            href: Introduction/Application-Scenarios/Hybrid-Cloud-Data-InterConnect-With-High-Speed.md
+          - name: 业务安全访问控制
+            href: Introduction/Application-Scenarios/Business-Security-Access-Control.md
+          - name: 多虚机共享公网IP访问外网
+            href: Introduction/Application-Scenarios/Multiple-Virtual-Machines-Use-Shared-IpAddress-To-Access-Internet.md
+  - name: 产品定价
+    items:
+      - name: 计费规则
+        href: Pricing/Billing-Overview.md
+  - name: 入门指南
+    items:
+       - name: 私有网络中创建云主机实例
+         href: Getting-Started/Create-Virtual-Machine-Instance-In-VPC.md
+       - name: 标准WEB+APP+DB架构服务部署
+         href: Getting-Started/Standard-WEB-APP-DB-Architectural-Service-Deployment.md
+       - name: 私有网络中云主机与公网互通
+         href: Getting-Started/Virtual-Machine-In-VPC-InterConnect-With-Internet.md
+       - name: 子网业务安全访问控制
+         href: Getting-Started/Subnet-Business-Security-Access-Control.md
+       - name: 主机实例安全组规则配置
+         href: Getting-Started/Virtual-Machine-Instance-Security-Group-Rule-Configuration.md
+       - name: 安全组规则典型配置
+         href: Getting-Started/Security-Group-Rules-Typically-Configured.md
+       - name: 多主机共享公网IP
+         href: Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress.md
+       - name: 基于子网的策略路由管理
+         href: Getting-Started/Subnet-Based-Policy-Routing-Management.md
+       - name: VPC对等连接
+         href: Getting-Started/VPC-Peering.md
+       - name: NAT实例网关
+         href: Getting-Started/NAT-Instance-Gateway.md
+       - name: VPN镜像网关
+         href: Getting-Started/VPN-Mirror-Gateway.md
+  - name: 操作指南
+    items:
+       - name: VPC配置
+         href: Operation-Guide/VPC-Configuration.md
+       - name: 子网配置
+         href: Operation-Guide/Subnet-Configuration.md
+       - name: 路由表配置
+         href: Operation-Guide/Route-Table-Configuration.md
+       - name: ACL配置
+         href: Operation-Guide/Network-ACL-Configuration.md
+       - name: 安全组配置
+         href: Operation-Guide/Security-Group-Configuration.md
+       - name: NFV配置
+         items:
+          - name: NAT实例网关配置
+            href: Operation-Guide/NFV-Configuration/NAT-Mirror-Gateway-Configuration.md
+          - name: VPN镜像网关配置
+            href: Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration.md
+       - name: VPC对等连接
+         href: Operation-Guide/VPC-Peering-Configuration.md
+  - name: 最佳实践
+    items:
+    status: 0
+  - name: 问题排查
+    items:
+    status: 0
+  - name: 常见问题
+    href: FAQ/FAQ.md
+  - name: API参考
+    href:
+    status: 0
+  - name: SDK参考
+    href:
+    status: 0
+  - name: 用户协议
+    items:
+    - name: 服务条款
+      href:
+      status: 0
+  - name: 相关资源
+    items:
+    - name: 文档历史记录
+      href:
+      status: 0
+

@@ -34,7 +34,6 @@
 ### 白名单
 支持用户自定义IP白名单，从访问源进行安全控制。
 
-
 ## 作业管理
 
 ### 配置作业
@@ -43,15 +42,5 @@
 ### 部署作业
 部署时的调度策略分为单次调度和周期调度。 可供客户灵活的选择作业自动执行的时间。
 
-
-## 相关参考
-
-- [产品概述](../Introduction/Overview.md)
-- [产品规格](../Introduction/Specification.md)
-- [价格总览](../Pricing/Price-Overview.md)
-- [创建实例](../Getting-Started/Create-Instance.md)
-- [变更配置](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
-- [数据恢复](../Operation-Guide/Backup/Restore-Instance.md)
-- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)
 
 

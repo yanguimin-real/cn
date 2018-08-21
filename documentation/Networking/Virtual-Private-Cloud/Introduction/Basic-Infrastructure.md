@@ -4,7 +4,7 @@
 
 京东云私有网络产品完全由京东云虚拟网络团队自主研发，针对传统SDN网络进行了一系列的性能优化，例如在不同层面上去单点、去单链路等等。具体逻辑架构如下图： 
 
-![](../Image/Basic-Infrastructure.png)
+![](/image/Networking/Virtual-Private-Cloud/Basic-Infrastructure.png)
 
 
 

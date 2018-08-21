@@ -6,16 +6,16 @@ SQL 性能统计对数据库中的SQL执行情况，从各个不同的维护进�
 ## 2.支持7种统计维度
 SQL 性能统计支持 以下7种统计维度
 
-![SQL性能1](../../../../../image/RDS/SQL-Performance-1.png)
+![SQL性能1](../../../image/RDS/SQL-Performance-1.png)
 
 ## 3. 自定义统计范围
 可对每种统计维度自定义定义统计的范围（则缺省为0），例如：
 
-![SQL性能2](../../../../../image/RDS/SQL-Performance-2.png)
+![SQL性能2](../../../image/RDS/SQL-Performance-2.png)
 
 
 ## 4. 导出统计结果
 可将统计结果导出为excel格式的文件，便于保存和发送给相关人员进行分析、优化
 
-![SQL性能3](../../../../../image/RDS/SQL-Performance-3.png)
+![SQL性能3](../../../image/RDS/SQL-Performance-3.png)
 

@@ -85,4 +85,4 @@ VPN默认提供隧道连通性自动检测，定时检测隧道的连通状况�
 
 需求：将部分资源部署在企业IDC，将应用服务等资源部署在京东云内网，通过VPN隧道进行数据通信，实现混合云部署。
 
-![](../../Image/NFV.jpg)
+![](/image/Networking/Virtual-Private-Cloud/NFV.jpg)

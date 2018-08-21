@@ -3,7 +3,7 @@
 本教程将指导您在同一台云主机上绑定多块弹性网卡，每块弹性网卡分别承载内网、公网以及管理网的业务流量，从而实现单台云主机的业务流量分离。本教程适用于云主机不同业务需要应用不同安全策略以及网络隔离的场景。
 
 ## 业务场景架构
-![业务流量分离场景](https://github.com/jdcloudcom/cn/blob/master/image/Networking/Elastic-Network-Interface/eni-002.png)
+![业务流量分离场景](../../../../image/Networking/Elastic-Network-Interface/eni-002.png)
 
 ## 开始之前
 - 制定合理的网络规划，按照网络规划在同一私有网络中分别创建内部子网、外部子网以及管理子网。

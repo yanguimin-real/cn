@@ -20,6 +20,6 @@
 
 ## 相关参考
 
-- [解绑弹性网卡](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Disassociate-Elastic-Network-Interface.md)
+- [解绑弹性网卡](./Disassociate-Elastic-Network-Interface.md)
 
 

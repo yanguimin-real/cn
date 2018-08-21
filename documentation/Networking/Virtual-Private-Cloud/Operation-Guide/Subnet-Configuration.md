@@ -24,9 +24,9 @@
 
 11.点击【确定】后即可进入“控制台”查看创建的子网；
 
-![](../Image/Operation-Guide/Subnet-Configuration/Step1.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Subnet-Configuration/Step1.png)
 
-![](../Image/Operation-Guide/Subnet-Configuration/Step2.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Subnet-Configuration/Step2.png)
 
 
 
@@ -40,7 +40,7 @@
 
 4.点击【确定】后即可为子网更换路由表；
 
-![](../Image/Operation-Guide/Subnet-Configuration/Step3.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Subnet-Configuration/Step3.png)
 
 
 
@@ -56,7 +56,7 @@
 
 打开控制台，选择 网络 > 子网，点击子网名称进入子网详情页，切换路由规则、ACL规则、云主机的tab即可查看。
 
- ![](../Image/Operation-Guide/Subnet-Configuration/Step4.png)
+ ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Subnet-Configuration/Step4.png)
 
 
 

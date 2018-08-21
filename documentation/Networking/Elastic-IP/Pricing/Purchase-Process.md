@@ -6,4 +6,4 @@
 
 1.登录京东云官网[https://www.jdcloud.com/](https://www.jdcloud.com/)。
 
-2.登录控制台，具体操作请参考[创建弹性公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Create-Elastic-IP.md)。
+2.登录控制台，具体操作请参考[创建弹性公网IP](../Operation-Guide/Elastic-IP-Management/Create-Elastic-IP.md)。

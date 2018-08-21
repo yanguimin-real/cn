@@ -24,12 +24,3 @@
 ## 运维方便
 控制台提供丰富的可视化监控数据指标，各项数据一目了然。您也可以设置自动报警规则，随时随地掌握实例运行情况。
 
-## 相关参考
-
-- [产品概述](../Product-Introduction/Overview.md)
-- [产品规格](../Product-Introduction/Specification.md)
-- [价格总览](../Pricing/Price-Overview.md)
-- [创建实例](../Getting-Started/Create-Instance.md)
-- [变更配置](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
-- [数据恢复](../Operation-Guide/Backup/Restore-Instance.md)
-- [设置报警规则](../Operation-Guide/Monitoring/Alarm-Rules.md)

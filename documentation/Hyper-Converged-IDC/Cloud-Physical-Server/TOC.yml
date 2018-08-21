@@ -109,14 +109,11 @@
   - name: SDK参考
     status: 0
   - name: 用户协议
-    status: 0
     items:
     - name: 服务条款
-      href: User-Agreements/Product-Terms-of-Service.md           
-      status: 0      
+      href: User-Agreements/Product-Terms-of-Service.md              
     - name: SLA
-      href: User-Agreements/SLA.md           
-      status: 0       
+      href: User-Agreements/SLA.md               
   - name: 相关资源
     items:
     - name: 文档历史记录

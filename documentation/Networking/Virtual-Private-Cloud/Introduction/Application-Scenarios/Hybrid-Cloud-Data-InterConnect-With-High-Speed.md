@@ -4,4 +4,4 @@
 
 建议配置：VPC、专线服务、VPN、云主机、RDS
 
-![](../../Image/Hybrid-Cloud-Data-InterConnect-With-High-Speed.jpg)
+![](/image/Networking/Virtual-Private-Cloud/Hybrid-Cloud-Data-InterConnect-With-High-Speed.jpg)

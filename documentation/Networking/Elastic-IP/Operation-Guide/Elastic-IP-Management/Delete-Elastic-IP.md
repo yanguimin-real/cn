@@ -20,6 +20,6 @@
 
 ## 相关参考
 
-- [解绑弹性公网IP](https://github.com/jdcloudcom/cn/blob/master/documentation/Networking/Elastic-IP/Operation-Guide/Elastic-IP-Management/Disassociate-Elastic-IP.md)
+- [解绑弹性公网IP](./Disassociate-Elastic-IP.md)
 
 
