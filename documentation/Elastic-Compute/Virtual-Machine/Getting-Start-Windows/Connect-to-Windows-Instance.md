@@ -58,11 +58,12 @@ VNC登陆的场景至少包括以下几种：
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc1.png)
 4. 点击【连接】后，输入密码，连接到实例。
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc2.png)
-5. 勾选“不再询问我是否连接到此计算机”，点击【是】。
+5. 勾选“不再询问我是否连接到此计算机”，点击【是】。<br>
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc3.png)
-6. 成功连接到您在京东云创建的Windows实例
-如果登录失败，请确认公网IP地址是否输入正确，并查看实例关联[安全组](../Operation-Guide/Security-Group/Overview.md)及所在子网的[网络ACL](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Network-ACL.md)配置，确认实例是否允许3389端口的入流量。
+6. 成功连接到您在京东云创建的Windows实例。<br>
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc4.png)
+7. 如果登录失败，请确认公网IP地址是否输入正确，并查看实例关联[安全组](../Operation-Guide/Security-Group/Overview.md)及所在子网的[网络ACL](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Network-ACL.md)配置，确认实例是否允许3389端口的入流量。
+
 
 ## 本地为Linux，使用rdesktop登录Windows实例
 本地系统为Linux，需要远程登录Window实例时，需要安装相应的远程桌面连接程序，通常使用rdesktop客户端。
@@ -88,4 +89,5 @@ rdesktop -u administrator -p <实例登录密码> <实例公网IP地址>
   [5]: ./images/Getting-Start-Linux-Connect-Windows-mstsc1.png "Getting-Start-Linux-Connect-Windows-mstsc1.png"
   [6]: ./images/Getting-Start-Linux-Connect-Windows-mstsc2.png "Getting-Start-Linux-Connect-Windows-mstsc2.png"
   [7]: ./images/Getting-Start-Linux-Connect-Windows-mstsc3.png "Getting-Start-Linux-Connect-Windows-mstsc3.png"
+
   [8]: ./images/Getting-Start-Linux-Connect-Windows-mstsc4.png "Getting-Start-Linux-Connect-Windows-mstsc4.png"
