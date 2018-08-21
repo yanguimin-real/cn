@@ -14,7 +14,6 @@
       <td rowspan="2" colspan="2">实例规格类型</td>
       <td rowspan="2">实例规格</td>
       <td colspan="2">规格</td>
-      
       <td rowspan="2">包月价格（元）</td>
       <td rowspan="2">按配置价格（元/小时）</td>
       <td rowspan="2">备注</td>
@@ -301,8 +300,8 @@
       <td></td>
    </tr>
    <tr>
-      <td rowspan="10">内存优化</td>
-      <td rowspan="10">标准</td>
+      <td rowspan="14">内存优化</td>
+      <td rowspan="14">标准</td>
       <td>m.n2.large</td>
       <td>2</td>
       <td>16</td>
@@ -326,6 +325,38 @@
       <td>4.304</td>
       <td></td>
    </tr>
+   <tr>
+      <td>m.n2.4xlarge</td>
+      <td>16</td>
+      <td>128</td>
+      <td>2477.6</td>
+      <td>8.607</td>
+      <td></td>
+   </tr>
+      <tr>
+      <td>m.n2.8xlarge</td>
+      <td>32</td>
+      <td>256</td>
+      <td>4955.2</td>
+      <td>17.205</td>
+      <td></td>
+   </tr>
+      <tr>
+      <td>m.n2.16xlarge</td>
+      <td>64</td>
+      <td>512</td>
+      <td>9910.4</td>
+      <td>34.409</td>
+      <td></td>
+   </tr> 
+   <tr>
+      <td>m.n2.18xlarge</td>
+      <td>72</td>
+      <td>576</td>
+      <td>11149.2</td>
+      <td>38.71</td>
+      <td></td>
+   </tr>  
    <tr>
       <td>m.n2.4xlarge</td>
       <td>16</td>
@@ -469,7 +500,6 @@
 请注意：
 
 * 标*表示不支持以该规格新建云主机，且不支持您将当前云主机调整至该规格，但不影响您现有该规格云主机的使用；
-* 通用型、计算优化型及内存优化型的第二代规格暂时只在华北-北京地域、华东-上海及华南-广州提供；
 * 高频计算型当前仅在华北-北京及华南-广州提供。
 
 ## 相关参考

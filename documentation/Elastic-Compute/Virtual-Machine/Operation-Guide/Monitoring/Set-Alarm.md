@@ -2,8 +2,8 @@
 您可针对实例不同监控项设置不同的报警规则，当满足规则时即触发报警向您发送邮件及短信。
 
 ## 操作步骤
-1. 访问[云监控-云主机监控控制台][1]，或访问[京东云控制台][2]点击左侧导航栏【云监控】-【资源监控】-【云主机监控】进入实例监控列表页。
-2. 找到您所需要查看监控数据的实例，点击操作项内“监控表”进入监控详情页
+1. 访问[云监控-云主机监控控制台](https://cms-console.jdcloud.com/serverMonitor)，或访问[京东云控制台](https://console.jdcloud.com/)点击左侧导航栏【管理】-【云监控】-【资源监控】-【云主机监控】进入实例监控列表页。
+2. 找到您所需要查看监控数据的实例，点击【操作】-【监控表】进入监控详情页
 3. 点击【报警规则标签】切换至报警规则选项，点击新增报警。
 4. 支持针对多个实例同时设置报警规则。
 ![](../../../../../image/vm/Operation-Guide-Monitor-1.png)
@@ -24,11 +24,3 @@
 
 7. 设置报警通知联系人，支持设置联系人或联系人组，完成配置后即可正常监测实例运行状况。
 ![](../../../../../image/vm/Operation-Guide-Monitor-4.png)
-
-
-  [1]: ./images/Operation-Guide-Monitor-1.png "Operation-Guide-Monitor-1.png"
-  [2]: ./images/Operation-Guide-Monitor-1.png "Operation-Guide-Monitor-1.png"
-  [3]: ./images/Operation-Guide-Monitor-1.png "Operation-Guide-Monitor-1.png"
-  [4]: ./images/Operation-Guide-Monitor-2.png "Operation-Guide-Monitor-2.png"
-  [5]: ./images/Operation-Guide-Monitor-3.png "Operation-Guide-Monitor-3.png"
-  [6]: ./images/Operation-Guide-Monitor-4.png "Operation-Guide-Monitor-4.png"
