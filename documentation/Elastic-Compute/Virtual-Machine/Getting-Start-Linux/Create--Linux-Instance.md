@@ -51,15 +51,16 @@
 ![](../../../../image/vm/Getting-Start-Linux-Create-information.png)
 
 12. 设置密码、密钥：
-对于设置密码，可以选择“立即设置”密码，也可以选择“暂不设置”（系统会以短信和邮件方式发送默认密码），密码除了用于SSH登录实例时的密码，也是控制台通过VNC登录实例的密码。                
+	对于设置密码，可以选择“立即设置”密码，也可以选择“暂不设置”（系统会以短信和邮件方式发送默认密码），密码除了用于SSH登录实例时的密码，也是控制台通过VNC登录实例的密码。                
 
-对于Linux系统，可以选择SSH密钥登录，通过绑定已经创建的SSH密钥进行更安全的实例登录认证，详细SSH密钥创建及登录帮助，请查阅 [SSH密钥](../Operation-Guide/Key-Pair/Overview.md)。  
+	对于Linux系统，可以选择SSH密钥登录，通过绑定已经创建的SSH密钥进行更安全的实例登录认证，详细SSH密钥创建及登录帮助，请查阅 [SSH密钥](../Operation-Guide/Key-Pair/Overview.md)。  
 ![](../../../../image/vm/Getting-Start-Linux-Create-login.png)
 
 13. 确认云主机数量及购买时长：
-购买数量受限该地域您云主机、云硬盘、公网IP限额以及所选子网剩余IP数量，若限额不够，可通过[提交工单](https://ticket.jdcloud.com/myorder/submit
+	购买数量受限该地域您云主机、云硬盘、公网IP限额以及所选子网剩余IP数量，若限额不够，可通过[提交工单](https://ticket.jdcloud.com/myorder/submit
 )提升限额。
-若购买包年包月实例，则需要设置购买时长，最短为1个月，最长为3年，支付十个月费用即可享受一年服务。若需要更长服务时长请[提交工单](https://ticket.jdcloud.com/myorder/submit
+	
+	若购买包年包月实例，则需要设置购买时长，最短为1个月，最长为3年。若需要更长服务时长请[提交工单](https://ticket.jdcloud.com/myorder/submit
 )。
 
 ## 相关参考

@@ -180,9 +180,9 @@
           - name: 创建安全组
             href: Operation-Guide/Security-Group/Create-Security-Group.md
           - name: 安全组绑定云主机
-            href: Operation-Guide/Security-Group/Associate-to-Instance.md
+            href: Operation-Guide/Security-Group/Associate-Instance.md
           - name: 安全组解绑云主机
-            href: Operation-Guide/Security-Group/Disassociate-to-Instance.md
+            href: Operation-Guide/Security-Group/Disassociate-Instance.md
           - name: 配置安全组入站规则
             href: Operation-Guide/Security-Group/Configurate-Inbound-Rules.md
           - name: 配置安全组出战规则

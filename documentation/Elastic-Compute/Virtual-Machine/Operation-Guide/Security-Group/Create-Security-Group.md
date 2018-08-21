@@ -6,7 +6,8 @@
 ![](../../../../../image/vm/Operation-Guide-SG-create1.png)
 
 2. 首先您需要选择安全组所在的地域和私有网络，安全组只能应用在相同私有网路下的实例。您可以为当前已创建的私有网络新建安全组，也可以点击【新建私有网络】按钮，跳转到新建私有网络页面，创建新的私有网络。
-    单个私有网络下最多可以创建50个安全组，如所选择的私有网络下安全组数量已达到50个，则会提示“所选私有网络资源安全组限额已达到50个”，您需要重新选择其他私有网络。
+    
+	单个私有网络下最多可以创建50个安全组，如所选择的私有网络下安全组数量已达到50个，则会提示“所选私有网络资源安全组限额已达到50个”，您需要重新选择其他私有网络。
 ![](../../../../../image/vm/Operation-Guide-SG-create2.png)
 
 3. 输入安全组名称及描述，描述用于对安全组规则的额外说明，如“开放了入口方向80、443端口”；建议您用安全组的使用场景或功能作为安全组的名称，如 " Web服务器集群开放80端口 " 。
@@ -16,5 +17,3 @@
 
   [1]: https://cns-console.jdcloud.com/host/netSecurity/list
   [2]: https://console.jdcloud.com/
-  [3]: ./images/Operation-Guide-SG-create1.png "Operation-Guide-SG-create1.png"
-  [4]: ./images/Operation-Guide-SG-create2.png "Operation-Guide-SG-create2.png"
